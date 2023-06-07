@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98AC9389-CB70-4C26-89A1-9703DECF3F47}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="ALEAS_04" ID="{98AC9389-CB70-4C26-89A1-9703DECF3F47}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Select_04" ID="{4CAA3BDB-22F1-4510-9272-087F73D0B6D4}">
+					<ChildrenList>
+						<Action Name="" ID="{424ABC0F-7240-4F3D-90D9-70F4CE0BEF84}" ShortID="577958296">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Transition_Intro_Aleas" ID="{A81F2593-9DDE-439C-BAFD-4CA7E12882FB}" WorkUnitID="{CA18BDCF-67A1-455E-9987-D98BCC998B04}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AD000DA6-3E3A-49DD-A7FB-75CBA9E67709}" ShortID="420103910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="04_Musique" ID="{E8F76D45-ABFA-49C2-9228-3F9BC55A9639}" WorkUnitID="{19529A5D-368B-4470-A25E-DB0A51958586}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

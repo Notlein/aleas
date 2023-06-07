@@ -1,74 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.13" WwiseBuild="8036">
 	<ProjectInfo>
-		<Project Name="aleas_WwiseProject" ID="{FDDD01F4-B8BE-43AF-9FD8-AC76BE24E32D}">
+		<Project Name="aleas_WwiseProject" ID="{4EE3DC26-D8DF-4454-BDFD-F62580BA2600}">
 			<Platforms>
-				<Platform Name="Android" ReferencePlatform="Android" ID="{FAAF450F-AEC9-4DCF-948F-0EBAA2E8AFAC}" />
-				<Platform Name="iOS" ReferencePlatform="iOS" ID="{CFBD8530-C64B-4722-AEB3-DB67B75942F2}" />
-				<Platform Name="Mac" ReferencePlatform="Mac" ID="{882AA9AF-9F00-45CF-98CC-829E3F76C744}" />
-				<Platform Name="Windows" ReferencePlatform="Windows" ID="{655500D4-1339-4C89-B4C9-607963F4D7A4}" />
+				<Platform Name="Android" ReferencePlatform="Android" ID="{1E52C80C-3175-4AE9-9853-8BF1EA9B479C}" />
+				<Platform Name="iOS" ReferencePlatform="iOS" ID="{CEB13C07-B02A-4992-B42E-21A90A33DBE2}" />
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{02ABC7F5-DBDB-4331-8A92-1F9C986B8AD0}" />
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{EBD04CC8-D83E-4324-A6F5-CDEF1980748C}" />
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{09E4D231-33AD-4427-AD40-3275D8F24E27}" />
-				<Language Name="External" ID="{FC34B66A-E08F-4BD0-9CC7-950675392205}" />
-				<Language Name="Mixed" ID="{0C2927BE-96F5-48E2-BF9B-7D5AE270DBDF}" />
-				<Language Name="SFX" ID="{9A8CA9B7-FD93-43D9-BE06-73AB2DF33B24}" />
+				<Language Name="English(US)" ID="{DD294D49-A4F7-4611-9DB6-678E07355096}" />
+				<Language Name="External" ID="{06463B16-AD45-4A3F-95BF-97059704F8E9}" />
+				<Language Name="Mixed" ID="{E2F957F4-2E0C-49B1-8144-48D9BF886254}" />
+				<Language Name="SFX" ID="{ED7E5646-81FB-4973-8ACB-71D81888CBB6}" />
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="iOS"></Value>
-						<Value Platform="Windows"></Value>
 						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" /><Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../../aleas/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="Windows">Copy Streamed Files</Value>
 						<Value Platform="Mac">Copy Streamed Files</Value>
 						<Value Platform="iOS">Copy Streamed Files</Value>
-						<Value Platform="Windows">Copy Streamed Files</Value>
 						<Value Platform="Android">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Mac">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="iOS">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Android">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="iOS"></Value>
-						<Value Platform="Windows"></Value>
 						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="iOS"></Value>
-						<Value Platform="Windows"></Value>
 						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
@@ -9469,7 +9469,7 @@
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{54E6C5ED-E97E-40C7-808E-F0133A017F87}">
+							<Curve Name="" ID="{F4A6CA63-9102-4D7F-A093-65D6C4EFE4A3}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3" />
 								</PropertyList>
@@ -9490,7 +9490,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{B02B388B-42DA-476B-823C-7FE3D64425D9}">
+							<Curve Name="" ID="{98907AB0-F2C1-4663-A2E5-41295F8C65D4}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -9511,7 +9511,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
-							<Curve Name="" ID="{2B375F47-4330-4ABB-8771-0F0EBAD96D1D}">
+							<Curve Name="" ID="{03C906C6-F4B1-452A-A48B-75E92E0DB964}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -9532,7 +9532,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{8724B992-40C1-4662-B50F-34B959C1A6BC}">
+							<Curve Name="" ID="{51EFEFF1-6713-421A-A553-53D99B1904E2}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3" />
 								</PropertyList>
@@ -9553,7 +9553,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
-							<Curve Name="" ID="{98A4702E-1377-4F02-8100-F52232FEA9CE}">
+							<Curve Name="" ID="{11745CD1-2DE3-4D4F-B2E5-718CD4F2F870}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
@@ -9574,7 +9574,7 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
-							<Curve Name="" ID="{05967A13-58D8-4377-AA4B-0F8127789CFD}">
+							<Curve Name="" ID="{2A2B81F3-0FE6-40FE-9673-2FC13B5F7900}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1" />
 								</PropertyList>
