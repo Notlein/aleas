@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B19E438D-09A2-4B3F-B249-3BCA62ED2D43}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="ALEAS_05" ID="{B19E438D-09A2-4B3F-B249-3BCA62ED2D43}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="05_Playlist" ID="{40E0F86F-D448-4713-93E9-AD1288D0268D}" ShortID="205340695">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="05_Musique" ID="{537FC8D3-E2C0-497E-AE79-04A2DB59F717}" ShortID="460267763">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Variations_00" ID="{EB3B5048-E9FA-488A-9982-0629EA30DCFA}" ShortID="706126363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+								<Sound Name="Variations_01" ID="{ADF5F2EF-5913-43CA-89FC-B5E4B7866916}" ShortID="366801510">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+								<Sound Name="Variations_02" ID="{D940E64E-2C48-4FCC-9048-B3C78B8C1616}" ShortID="113669530">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+								<Sound Name="Variations_03" ID="{446C1227-D690-4448-888F-85A5A735CB0D}" ShortID="60456273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+								<Sound Name="Variations_04" ID="{356BC6BA-6DBA-4FEE-9A36-C03F6C7B5A54}" ShortID="1026004045">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="05_Poeme" ID="{879EAED5-EB85-4661-B82E-107A02F3B6E2}" ShortID="873182450">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<Playlist>
+						<ItemRef Name="05_Musique" ID="{537FC8D3-E2C0-497E-AE79-04A2DB59F717}"/>
+						<ItemRef Name="05_Poeme" ID="{879EAED5-EB85-4661-B82E-107A02F3B6E2}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
