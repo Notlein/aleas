@@ -71,7 +71,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Wwise Soundbanks and soundfiles
+# Wwise Soundbanks
 *.bnk
-*.wav
-*.wem
