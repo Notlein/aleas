@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4565FB1C-90A5-427B-85DA-FFFC7DEA9F2B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="TESTS" ID="{4565FB1C-90A5-427B-85DA-FFFC7DEA9F2B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Test_Aleas_01" ID="{197F39DF-000B-4D28-AAEB-D935C011CACF}">
+					<ChildrenList>
+						<Action Name="" ID="{962B824C-6A39-4658-BC52-5693FDE2F2FF}" ShortID="521566487">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="01_Interaction_00" ID="{24CC0BF0-80A6-4314-8EE6-528E5005F6C0}" WorkUnitID="{64209817-CD2F-406E-B177-C729DACCC903}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test_Aleas_02" ID="{23399A96-EF26-418B-9728-B61C1E6D8386}">
+					<ChildrenList>
+						<Action Name="" ID="{95F7AD08-DCE3-4D47-B0B9-666FA90BF1FE}" ShortID="266854124">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="01_Interaction_01" ID="{10ABC167-8E2B-429A-BE0B-97929414A8AC}" WorkUnitID="{64209817-CD2F-406E-B177-C729DACCC903}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Test_Aleas_03" ID="{C23BFA0A-11E9-4B11-8563-A67BC54FC2E3}">
+					<ChildrenList>
+						<Action Name="" ID="{487A5549-DACC-4C84-9C1D-65E506D66115}" ShortID="499000783">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="01_Interaction_02" ID="{87B745AE-4733-419C-88CA-89B339BE6BD8}" WorkUnitID="{64209817-CD2F-406E-B177-C729DACCC903}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8AB4FBD6-A24D-4995-8CC7-AB65B2AF7207}" ShortID="789319501">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TEST_VX" ID="{6FADE385-E99D-444C-B4A0-BBC68AE7E106}" WorkUnitID="{64209817-CD2F-406E-B177-C729DACCC903}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

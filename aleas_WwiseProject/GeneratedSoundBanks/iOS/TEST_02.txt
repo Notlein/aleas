@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2872867097	Test_Aleas_02			\TESTS\Test_Aleas_02	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4014498361	PAN_Paysage			\Default Work Unit\PAN_Paysage	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	420275025	Clean_00	C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\.cache\iOS\SFX\Thierry-T2-MIX-FL-VX-230616_1407_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\01_Interaction_01\Clean_00		108611648
+	923845256	Electro_00	C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\.cache\iOS\SFX\Thierry-T2-MIX Elect-VX-230616_1407_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TEST\01_Interaction_01\Electro_00		108611648
+

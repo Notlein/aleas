@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{12D62D3F-DE6B-4948-97A5-E68632F5DFB0}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{12D62D3F-DE6B-4948-97A5-E68632F5DFB0}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="TEST" ID="{64209817-CD2F-406E-B177-C729DACCC903}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

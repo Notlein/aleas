@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\chris\Documents\@RTS\ALEAS\chris\aleas\aleas_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3206954062">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1877151555" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ALEAS_01</ObjectPath>
+			<ShortName>ALEAS_01</ShortName>
+			<Path>ALEAS_01.bnk</Path>
+			<IncludedEvents>
+				<Event Id="386873425" Name="Select_01" ObjectPath="\Events\ALEAS_01\Select_01" DurationType="OneShot" DurationMin="0." DurationMax="566.122681">
+					<IncludedMemoryFiles>
+						<File Id="436204605" Language="SFX">
+							<ShortName>Thierry-T2-MIX-FL-VX-230616_1306.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX-FL-VX-230616_1306_10C4C929.wem</Path>
+						</File>
+						<File Id="1040855543" Language="SFX">
+							<ShortName>Thierry-T2-MIX Electro-230616_1306.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX Electro-230616_1306_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3739746622" Name="Transition_Intro_Aleas" ObjectPath="\Events\Default Work Unit\Transition_Intro_Aleas"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3739746622" Name="Transition_Intro_Aleas" ObjectPath="\Events\Default Work Unit\Transition_Intro_Aleas" DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4014498361" Name="PAN_Paysage" ObjectPath="\Game Parameters\Default Work Unit\PAN_Paysage"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3020476437" Language="SFX" Hash="2213475725">
+			<ObjectPath>\SoundBanks\TEST\TEST_01</ObjectPath>
+			<ShortName>TEST_01</ShortName>
+			<Path>TEST_01.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2872867098" Name="Test_Aleas_01" ObjectPath="\Events\TESTS\Test_Aleas_01" DurationType="OneShot" DurationMin="566.122681" DurationMax="566.122681">
+					<IncludedMemoryFiles>
+						<File Id="436204605" Language="SFX">
+							<ShortName>Thierry-T2-MIX-FL-VX-230616_1306.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX-FL-VX-230616_1306_10C4C929.wem</Path>
+						</File>
+						<File Id="1040855543" Language="SFX">
+							<ShortName>Thierry-T2-MIX Electro-230616_1306.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX Electro-230616_1306_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4014498361" Name="PAN_Paysage" ObjectPath="\Game Parameters\Default Work Unit\PAN_Paysage"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3020476438" Language="SFX" Hash="989960685">
+			<ObjectPath>\SoundBanks\TEST\TEST_02</ObjectPath>
+			<ShortName>TEST_02</ShortName>
+			<Path>TEST_02.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2872867097" Name="Test_Aleas_02" ObjectPath="\Events\TESTS\Test_Aleas_02" DurationType="OneShot" DurationMin="565.685364" DurationMax="565.685364">
+					<IncludedMemoryFiles>
+						<File Id="420275025" Language="SFX">
+							<ShortName>Thierry-T2-MIX-FL-VX-230616_1407.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX-FL-VX-230616_1407_10C4C929.wem</Path>
+						</File>
+						<File Id="923845256" Language="SFX">
+							<ShortName>Thierry-T2-MIX Elect-VX-230616_1407.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX Elect-VX-230616_1407_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4014498361" Name="PAN_Paysage" ObjectPath="\Game Parameters\Default Work Unit\PAN_Paysage"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3020476439" Language="SFX" Hash="2214592406">
+			<ObjectPath>\SoundBanks\TEST\TEST_03</ObjectPath>
+			<ShortName>TEST_03</ShortName>
+			<Path>TEST_03.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2872867096" Name="Test_Aleas_03" ObjectPath="\Events\TESTS\Test_Aleas_03" DurationType="OneShot" DurationMin="567.840027" DurationMax="567.840027">
+					<IncludedMemoryFiles>
+						<File Id="218485581" Language="SFX">
+							<ShortName>Thierry-T2-MIX-VX-230616_1425.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX-VX-230616_1425_10C4C929.wem</Path>
+						</File>
+						<File Id="348730184" Language="SFX">
+							<ShortName>Thierry-T2-MIX Elect-230616_1425.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX Elect-230616_1425_10C4C929.wem</Path>
+						</File>
+						<File Id="859217917" Language="SFX">
+							<ShortName>Thierry-T2-MIX-FL-230616_1425.wav</ShortName>
+							<Path>SFX\Thierry-T2-MIX-FL-230616_1425_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4014498361" Name="PAN_Paysage" ObjectPath="\Game Parameters\Default Work Unit\PAN_Paysage"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9C0C7BB-1213-4496-A7C0-2D5EA6B4F936}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="TEST" ID="{E9C0C7BB-1213-4496-A7C0-2D5EA6B4F936}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TEST_01" ID="{091954C4-0ACA-44A5-AE09-AADE495B706A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test_Aleas_01" ID="{197F39DF-000B-4D28-AAEB-D935C011CACF}" WorkUnitID="{4565FB1C-90A5-427B-85DA-FFFC7DEA9F2B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TEST_02" ID="{8BAB9892-1DB3-40C1-BD74-E1ECF48B1D7A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test_Aleas_02" ID="{23399A96-EF26-418B-9728-B61C1E6D8386}" WorkUnitID="{4565FB1C-90A5-427B-85DA-FFFC7DEA9F2B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="TEST_03" ID="{29623112-AD7E-4DBD-A6C7-CA33272EE28F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test_Aleas_03" ID="{C23BFA0A-11E9-4B11-8563-A67BC54FC2E3}" WorkUnitID="{4565FB1C-90A5-427B-85DA-FFFC7DEA9F2B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
