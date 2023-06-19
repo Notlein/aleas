@@ -35,7 +35,19 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{45C4A51C-192C-4C50-B55E-CAF855F3A02D}">
+											<Language>SFX</Language>
+											<AudioFile>Thierry-T2-MIX-FL-VX-230616_1306.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="436204605"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{45C4A51C-192C-4C50-B55E-CAF855F3A02D}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Electro_00" ID="{C97589AB-F361-49CB-890A-F11FC2785FC2}" ShortID="19484592">
 									<ReferenceList>
@@ -46,7 +58,19 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{5251AA86-5B3B-4048-B117-B802AA6F3FAF}">
+											<Language>SFX</Language>
+											<AudioFile>Thierry-T2-MIX Electro-230616_1306.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040855543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
 									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{5251AA86-5B3B-4048-B117-B802AA6F3FAF}" Platform="Linked"/>
+									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
