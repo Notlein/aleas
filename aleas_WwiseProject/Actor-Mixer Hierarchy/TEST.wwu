@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64209817-CD2F-406E-B177-C729DACCC903}" SchemaVersion="103" RootDocumentID="{12D62D3F-DE6B-4948-97A5-E68632F5DFB0}" ParentDocumentID="{12D62D3F-DE6B-4948-97A5-E68632F5DFB0}">
+	<AudioObjects>
+		<WorkUnit Name="TEST" ID="{64209817-CD2F-406E-B177-C729DACCC903}" OwnerID="{12D62D3F-DE6B-4948-97A5-E68632F5DFB0}" PersistMode="Nested">
+			<ChildrenList>
+				<BlendContainer Name="01_Interaction_00" ID="{24CC0BF0-80A6-4314-8EE6-528E5005F6C0}" ShortID="772213192">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clean_00" ID="{9E3EF3AA-F6CB-4AC8-A31E-3EE04BDA53DB}" ShortID="577233572">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{504C0F89-CB10-4CA3-BEE9-7BD5375D3A06}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX-FL-VX-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="436204605"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{504C0F89-CB10-4CA3-BEE9-7BD5375D3A06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Electro_00" ID="{6F18C54A-C0A2-483D-8625-0671FB92693B}" ShortID="510108459">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{1CE2CC4E-04EA-4B5B-B8E8-8293981B0028}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX Electro-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040855543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{1CE2CC4E-04EA-4B5B-B8E8-8293981B0028}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="Clean" ID="{9C9E71CD-7BA4-41C9-8DF6-EC831ACB2A2D}" ShortID="557338120">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D597214A-064C-442A-A25A-AFCD1161A4DA}" ShortID="755256170">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{14079BB5-014B-4582-8FC1-79C2A71718AC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Clean_00" ID="{9E3EF3AA-F6CB-4AC8-A31E-3EE04BDA53DB}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Electro" ID="{E04FADAA-5C85-44C7-A5D8-E0B24658D3D6}" ShortID="775560426">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{52A71E61-CEAF-4EEF-81F1-904645F49ED2}" ShortID="262765409">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9F9BE21A-A615-4600-ACC7-5F959AF7C26E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Electro_00" ID="{6F18C54A-C0A2-483D-8625-0671FB92693B}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<BlendContainer Name="01_Interaction_01" ID="{10ABC167-8E2B-429A-BE0B-97929414A8AC}" ShortID="746912343">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clean_00" ID="{954AF485-D5E4-4510-A231-6F8CC9F4F469}" ShortID="698385409">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{7B6824E0-A752-403D-B6BD-C3831924715E}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX-FL-VX-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="436204605"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Thierry-T2-MIX-FL-VX-230616_1407" ID="{603CECCE-CBD4-4D39-B283-873DBDF8418C}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX-FL-VX-230616_1407.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="420275025"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX-FL-VX-230616_1407" ID="{603CECCE-CBD4-4D39-B283-873DBDF8418C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Electro_00" ID="{57FF28EC-E879-4243-9B40-8E5396BB18B3}" ShortID="479609993">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{E17DA66F-0FD3-4683-8230-29B794B031EB}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX Electro-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040855543"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Thierry-T2-MIX Elect-VX-230616_1407" ID="{1382E058-2E07-485A-BB14-938B388BD5B9}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX Elect-VX-230616_1407.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="923845256"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX Elect-VX-230616_1407" ID="{1382E058-2E07-485A-BB14-938B388BD5B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="Clean" ID="{228B2780-308D-4C46-B248-B87B677641C0}" ShortID="599000259">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8A6C2978-E4D3-469E-8C52-D0FF3187C220}" ShortID="15839567">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DB709CBF-09C2-4A29-98E0-C5E0C4F1D2BC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Clean_00" ID="{954AF485-D5E4-4510-A231-6F8CC9F4F469}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Electro" ID="{35F5FC33-6A0A-47B0-A17E-F2F631B8BC87}" ShortID="205760658">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{677B84A8-5AF0-4B20-A420-2CEBE68E0EC9}" ShortID="73916243">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{78BF298D-8929-4AA1-A7F4-1FE34D540128}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Electro_00" ID="{57FF28EC-E879-4243-9B40-8E5396BB18B3}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<BlendContainer Name="01_Interaction_02" ID="{87B745AE-4733-419C-88CA-89B339BE6BD8}" ShortID="49251886">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clean_00" ID="{59AAD609-E2A8-452B-BDF3-26F00C4ED6A9}" ShortID="873370012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX-FL-VX-230616_1306" ID="{5612769C-2451-49AA-93C5-FBC01B195DFA}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX-FL-VX-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="436204605"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Thierry-T2-MIX-FL-230616_1425" ID="{2ABE064A-A0A9-4391-B4BD-99713D8813BC}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX-FL-230616_1425.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859217917"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX-FL-230616_1425" ID="{2ABE064A-A0A9-4391-B4BD-99713D8813BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Electro_00" ID="{B4D558BD-A424-4D3B-9F31-CC4A80729251}" ShortID="695354839">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thierry-T2-MIX Electro-230616_1306" ID="{22A90B8F-113E-469E-8A59-BF04E2CF048A}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX Electro-230616_1306.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040855543"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Thierry-T2-MIX Elect-230616_1425" ID="{EEBDFAD2-43F7-44A0-A459-CC3145238F2B}">
+									<Language>SFX</Language>
+									<AudioFile>Thierry-T2-MIX Elect-230616_1425.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="348730184"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Thierry-T2-MIX Elect-230616_1425" ID="{EEBDFAD2-43F7-44A0-A459-CC3145238F2B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="Clean" ID="{7C05F190-57AD-4297-B0C8-554409F7DD71}" ShortID="277647887">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6B26B921-B371-4754-A5A7-0D0005429EC4}" ShortID="511383293">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{09A7F98A-B76D-4B93-8A51-06DB4588A83C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Clean_00" ID="{59AAD609-E2A8-452B-BDF3-26F00C4ED6A9}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Electro" ID="{D0E4DEC3-9D8B-4AAB-997E-4F51C9885048}" ShortID="446235476">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{842054C1-4E0C-48AC-86BC-32AF643F2627}" ShortID="633974029">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="PAN_Paysage" ID="{89AC054E-8ED2-4E01-84F7-E60ECE9A6027}" WorkUnitID="{5B6F344D-AA49-415E-AF00-B0F7A9BDE249}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{68FEA4F2-BA00-4338-9535-493290B13A10}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Electro_00" ID="{B4D558BD-A424-4D3B-9F31-CC4A80729251}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<Sound Name="TEST_VX" ID="{6FADE385-E99D-444C-B4A0-BBC68AE7E106}" ShortID="652375596">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{08579DB1-7E39-4C73-B276-081984804B03}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{776D9CBC-15FA-4010-AF48-F576ED504534}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Thierry-T2-MIX-VX-230616_1425" ID="{FB2DAFEB-C03D-4D21-A457-5508A31CD841}">
+							<Language>SFX</Language>
+							<AudioFile>Thierry-T2-MIX-VX-230616_1425.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="218485581"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Thierry-T2-MIX-VX-230616_1425" ID="{FB2DAFEB-C03D-4D21-A457-5508A31CD841}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
