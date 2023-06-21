@@ -1,2 +1,5 @@
 Liens pour les SoundBanks
 https://www.dropbox.com/sh/4tt5xieqv16qel5/AAAyBK4MiR4gPsxanHNpaZhva?dl=0
+
+Les dossiers sont à placer dans: 
+`aleas/aleas_WwiseProject/GeneratedSoundBanks`
