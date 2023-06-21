@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 
 /[Aa]ssets/[Mm]edia/[Vv]id/*.mp4
+
+# Wwise Soundbanks
+*.bnk
