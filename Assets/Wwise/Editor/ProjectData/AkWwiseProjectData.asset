@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 9137807d4a23894993f9e3b98287573a
     GuidInternal: 
-    m_lastTime: -8585150730213869621
+    m_lastTime: -8585154456350637585
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: bc9c6d77fa151040af48f576ed504534
     GuidInternal: 
-    m_lastTime: -8585150730213909670
+    m_lastTime: -8585154456350767594
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,77 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
     GuidInternal: 
-    m_lastTime: -8585150730213889639
-    List: []
+    m_lastTime: -8585146665800769991
+    List:
+    - name: ALEAS_01
+      guid: 9aee7f42f03b4c4088780f8745249b2a
+      id: 1877151555
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e7fa9cdf8b7cd044be0d1a47ca437ec5
+      - ElementName: ALEAS_01
+        ObjectType: 7
+        guid: 9aee7f42f03b4c4088780f8745249b2a
+      Path: SoundBanks\Default Work Unit\ALEAS_01
+  - PhysicalPath: SoundBanks\TEST.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TEST
+      ObjectType: 12
+      guid: bbc7c0e913129644a7c02d5ea6b4f936
+    ParentPath: SoundBanks\TEST
+    guid: bbc7c0e913129644a7c02d5ea6b4f936
+    GuidInternal: 
+    m_lastTime: -8585146646663981299
+    List:
+    - name: TEST_01
+      guid: c4541909ca0aa544ae09aade495b706a
+      id: 3020476437
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_01
+        ObjectType: 7
+        guid: c4541909ca0aa544ae09aade495b706a
+      Path: SoundBanks\TEST\TEST_01
+    - name: TEST_02
+      guid: 9298ab8bb31dc140bd74e1ecf48b1d7a
+      id: 3020476438
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_02
+        ObjectType: 7
+        guid: 9298ab8bb31dc140bd74e1ecf48b1d7a
+      Path: SoundBanks\TEST\TEST_02
+    - name: TEST_03
+      guid: 123162297eadbd4da6c7ca33272ee28f
+      id: 3020476439
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TEST
+        ObjectType: 12
+        guid: bbc7c0e913129644a7c02d5ea6b4f936
+      - ElementName: TEST_03
+        ObjectType: 7
+        guid: 123162297eadbd4da6c7ca33272ee28f
+      Path: SoundBanks\TEST\TEST_03
   EventWwu:
   - PhysicalPath: Events\ALEAS_01.wwu
     PathAndIcons:
@@ -80,7 +149,7 @@ MonoBehaviour:
     ParentPath: Events\ALEAS_01
     guid: ca419469d8c01843ae8ac45169beac2d
     GuidInternal: 
-    m_lastTime: -8585150730213934749
+    m_lastTime: -8585154456350837568
     List:
     - name: Select_01
       guid: 851f60c69cb7e24f916cfe20b284b988
@@ -97,8 +166,8 @@ MonoBehaviour:
         guid: 851f60c69cb7e24f916cfe20b284b988
       Path: Events\ALEAS_01\Select_01
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 566.1227
+      minDuration: 0
   - PhysicalPath: Events\ALEAS_02.wwu
     PathAndIcons:
     - ElementName: Events
@@ -110,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\ALEAS_02
     guid: 613aebc69870d440968f8cbab8d49cbf
     GuidInternal: 
-    m_lastTime: -8585150730213934749
+    m_lastTime: -8585154456350827574
     List:
     - name: Eo_01
       guid: d5b9041378d48a4a8db2395f8267871b
@@ -803,7 +872,7 @@ MonoBehaviour:
     ParentPath: Events\ALEAS_04
     guid: 8993ac9870cb264c89a19703decf3f47
     GuidInternal: 
-    m_lastTime: -8585150730213934749
+    m_lastTime: -8585154456350827574
     List:
     - name: Select_04
       guid: db3baa4cf12210459272087f73d0b6d4
@@ -833,7 +902,7 @@ MonoBehaviour:
     ParentPath: Events\ALEAS_05
     guid: d2c0ae1b4d37ea4f8c3146bb9f7d3d49
     GuidInternal: 
-    m_lastTime: -8585150730213934749
+    m_lastTime: -8585154456350827574
     List:
     - name: Select_05
       guid: 14e2d6d57ed79f4da35b5cd2fb7f9930
@@ -863,7 +932,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: cfbd18caa1675e459987d98bcc998b04
     GuidInternal: 
-    m_lastTime: -8585150730213919729
+    m_lastTime: -8585154456350807581
     List:
     - name: BOOT
       guid: b6954d8f04350d47bd71ed9183a8d0c5
@@ -897,8 +966,72 @@ MonoBehaviour:
         guid: 93251fa8de9d9c43bafd4ca7e12882fb
       Path: Events\Default Work Unit\Transition_Intro_Aleas
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\TESTS.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: TESTS
+      ObjectType: 12
+      guid: 1cfb6545a5907b4285dafffc7dea9f2b
+    ParentPath: Events\TESTS
+    guid: 1cfb6545a5907b4285dafffc7dea9f2b
+    GuidInternal: 
+    m_lastTime: -8585146646663836126
+    List:
+    - name: Test_Aleas_01
+      guid: df397f190b00284daaebd935c011cacf
+      id: 2872867098
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_01
+        ObjectType: 3
+        guid: df397f190b00284daaebd935c011cacf
+      Path: Events\TESTS\Test_Aleas_01
+      maxAttenuation: 0
+      maxDuration: 566.1227
+      minDuration: 566.1227
+    - name: Test_Aleas_02
+      guid: 969a392326ef8b419728b61c1e6d8386
+      id: 2872867097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_02
+        ObjectType: 3
+        guid: 969a392326ef8b419728b61c1e6d8386
+      Path: Events\TESTS\Test_Aleas_02
+      maxAttenuation: 0
+      maxDuration: 565.68536
+      minDuration: 565.68536
+    - name: Test_Aleas_03
+      guid: 0afa3bc2e911114b8563a67bc54fc2e3
+      id: 2872867096
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: TESTS
+        ObjectType: 12
+        guid: 1cfb6545a5907b4285dafffc7dea9f2b
+      - ElementName: Test_Aleas_03
+        ObjectType: 3
+        guid: 0afa3bc2e911114b8563a67bc54fc2e3
+      Path: Events\TESTS\Test_Aleas_03
+      maxAttenuation: 0
+      maxDuration: 567.84
+      minDuration: 567.84
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -911,7 +1044,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 4d346f5b49aa5e41af00b0f7a9bde249
     GuidInternal: 
-    m_lastTime: -8585150730213919729
+    m_lastTime: -8585154456350797588
     List:
     - name: PAN_Paysage
       guid: 4e05ac89d28e014e84f7e60ece9a6027
@@ -939,7 +1072,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 1e95843e280c03458e31707cce57a283
     GuidInternal: 
-    m_lastTime: -8585150730213879628
+    m_lastTime: -8585154456350667594
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -953,7 +1086,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6b5b25ed248c2f47a0267e1bc40a7c76
     GuidInternal: 
-    m_lastTime: -8585150730213879628
+    m_lastTime: -8585154456350657590
     List:
     - name: EOLITHES
       guid: 1111a50be4c7774dad6ef434d968b687
@@ -1593,10 +1726,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 0561640dd0fbd441a7f4ca17e069978e
     GuidInternal: 
-    m_lastTime: -8585150730213879628
+    m_lastTime: -8585154456350647588
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000380000003a0000003e000000410000004300000046000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
